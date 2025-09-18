@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import logo from './logo.svg'
 import './farzi.css'
+
 
 
 const farzi = () => {
@@ -21,8 +22,16 @@ const farzi = () => {
           Learn React
         </a>
 
-        
+
         </header>
+
+
+        const [data, setdata] = useState({
+            name: 'kaifyy',
+            age: 21
+        });
+
+        return <h1>My name is {data.name} and my age is {data.age}</h1>
     </div>
   )
 }
