@@ -1,16 +1,24 @@
 * {
-  margin: 0px;
+  margin: 0;
   padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
 body {
-  background-color: #fff;
-  color: white;
+  background-color: black;
 
 }
 
 button {
-  background-color:darkslategray;
+  background-color: lightseagreen;
   padding: 5px 10px;
-  
 }
+
