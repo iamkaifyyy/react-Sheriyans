@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './src/'
+import Header from './src/components'
 
 const App = () => {
   return (
