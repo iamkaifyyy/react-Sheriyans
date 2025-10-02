@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './src/components/Header'
+import Navbar from 
 
 const App = () => {
   return (
