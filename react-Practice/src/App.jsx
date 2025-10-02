@@ -11,4 +11,5 @@ const App = () => {
   )
 }
 
+// reusable component
 export default App
